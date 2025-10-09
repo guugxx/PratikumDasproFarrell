@@ -78,11 +78,11 @@ public class ketentuankelulusan10 {
         }
 
         
-        System.out.println("Mata Kuliah\t\t\t\tUTS\tUAS\tTUGAS\tNILAI AKHIR\tNILAI HURUF\tStatus");
+        System.out.println("Mata Kuliah\t\tUTS\tUAS\tTUGAS\tNILAI AKHIR\tNILAI HURUF\tStatus");
         System.out.println("----------------------------------------");
         
         System.out.println("Algoritma Pemrograman\t" + NILAIUTS + "\t" + NILAIUAS + "\t" + NILAITUGAS + "\t" + NILAIAKHIR + "\t" + NILAIHURUF + "\t" + STATUS);
-        System.out.println("Basis Data\t\t\t" + NILAIUTS2 + "\t" + NILAIUAS2 + "\t" + NILAITugas2 + "\t" + NILAIAKHIR2 + "\t" + NILAIHURUF2 + "\t" + STATUS2);
+        System.out.println("Basis Data\t\t" + NILAIUTS2 + "\t" + NILAIUAS2 + "\t" + NILAITugas2 + "\t" + NILAIAKHIR2 + "\t" + NILAIHURUF2 + "\t" + STATUS2);
     }
 }
 
