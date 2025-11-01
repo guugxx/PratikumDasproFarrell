@@ -1,0 +1,51 @@
+Pertanyaan & Jawaban P1:
+
+Jika i = 1 diubah menjadi i = 0, apa akibatnya?
+- Akan muncul N + 1 bintang, karena perulangan dimulai dari 0 hingga N.
+
+Jika kondisi i <= N diubah menjadi i > N, apa akibatnya?
+- Tidak ada bintang yang muncul.
+
+Jika i++ diubah menjadi i--, apa akibatnya?
+- Program menjadi infinite loop .
+
+Pertanyaan & Jawaban P2:
+
+Jika iOuter = 1 diubah menjadi iOuter = 0, apa akibatnya?
+- Akan muncul N + 1 baris bintang.
+
+Jika i = 1 diubah menjadi i = 0, apa akibatnya?
+- Setiap baris akan berisi N + 1 bintang.
+
+Apa perbedaan antara perulangan luar dan dalam?
+- Perulangan luar mengatur jumlah baris,
+sedangkan perulangan dalam mengatur jumlah kolom (bintang per baris).
+
+Mengapa perlu System.out.println(); di bawah perulangan dalam?
+- Agar kursor berpindah ke baris baru setelah mencetak satu baris bintang.
+Jika dihapus, semua bintang akan muncul dalam satu baris panjang
+
+Pertanyaan & Jawaban P3:
+
+Apakah output sesuai dengan contoh?
+- Sesuai, jika sudah menambahkan System.out.println(); setelah perulangan dalam.
+
+Bagian mana yang perlu diperbaiki jika hasil tidak sesuai?
+System.out.println();
+agar kursor pindah ke baris baru setiap kali selesai mencetak satu baris bintang.
+
+Pertanyaan & Jawaban P4:
+
+Apa fungsi perulangan FOR pada program ini?
+- Untuk memasukkan dan menghitung 5 nilai tugas setiap mahasiswa.
+
+Apa fungsi perulangan WHILE pada program ini?
+- Untuk mengulang proses input nilai tugas bagi setiap mahasiswa (5 kali).
+
+Mengapa variabel totalNilai diberi nilai awal 0?
+- Agar penjumlahan nilai dimulai dari 0 dan tidak menumpuk dari mahasiswa sebelumnya.
+
+
+rataNilai = totalNilai / 5;
+Apa akibat jika totalNilai = 0; diletakkan di luar perulangan WHILE?
+➤ Nilai total akan menumpuk antar mahasiswa, sehingga rata-rata menjadi salah

@@ -16,3 +16,4 @@ public class square10 {
         sc.close();
     }
 }
+
